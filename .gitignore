@@ -1,0 +1,21 @@
+# Raw data exports and local database artifacts
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.zip
+*.bak
+*.mdf
+*.ldf
+*.sqlplan
+
+# Local tooling and operating-system files
+.vscode/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+# Credentials and environment files
+.env
+.env.*
